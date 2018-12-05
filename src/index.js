@@ -9,7 +9,7 @@ import javascript from './components/Javascript';
 import python from './components/Python';
 
 const Root = () =>
-    <Router>
+    <Router basename="/react-application/">
         <div>
 
             <Navbar>
